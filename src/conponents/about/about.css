@@ -1,0 +1,61 @@
+
+.about{
+    text-align: center;
+    padding-top: 130px;
+    line-height: 1.5rem;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section img{
+    width: 400px;
+    
+}
+.yarn{
+    padding-left: 100px;
+
+}
+
+.know{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.knowMe{
+    width: 180px;
+    background: rgba(0, 0, 0, 0.304);
+    padding: 25px;
+    border-radius: 22px;
+    line-height: 2rem;
+    margin: 5px;
+}
+.knowMe:hover{
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px black;
+    transition: .5s;
+}
+.knowMe h5{
+    opacity: .8;
+}
+.abouticon{
+    font-size: 2rem;
+}
+.abouttext{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+@media  (max-width: 768px) {
+    .yarn{
+        padding: 0;
+    }
+    .section{
+        flex-direction: column;
+    }
+    
+}

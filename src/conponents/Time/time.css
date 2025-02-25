@@ -1,0 +1,14 @@
+.clock {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    text-shadow: 0 0 3px white;
+    background: #000;
+    border-bottom-left-radius: 22px;
+    padding-left: 5px;
+}
+
+#clock {
+    margin-left: 5px;
+}

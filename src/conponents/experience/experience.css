@@ -1,0 +1,54 @@
+.experience {
+    padding-top: 100px;
+    text-align: center;
+    line-height: 1.5rem;
+    width: 100%;
+}
+
+.experiences {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.development {
+    width: 48%;
+    padding: 30px 40px;
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.development:hover{
+    background: rgba(0, 0, 0, 0.218);
+    transition: .5s;
+    box-shadow: 0 0 5px black;
+}
+.development h2{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.myp{
+    width: 50%;
+    line-height: 1rem;
+    margin: 7px 0;
+}
+.myp h5{
+    padding-left: 24px;
+}
+@media (max-width: 768px) {
+    .experiences{
+        width: 100%;
+        flex-direction: column;
+    }
+    .development{
+        width: 100%;
+        margin: 10px 0;
+
+    }
+    
+}
